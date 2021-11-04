@@ -1,4 +1,4 @@
-Projeto feito para teste de uma empresa.
+Projeto feito para teste de uma empresa, onde o desafio era utilizar webpack, html, css e javascript, priorizando a responsividade do website.
 
 
 # Instalação
