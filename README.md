@@ -2,7 +2,7 @@ Projeto feito para teste de uma empresa, onde o desafio era utilizar webpack, ht
 
 
 # Instalação
-Rode o comando abaixo para que a aplicação execute sem problemas.
+Após o clone do projeto, rode o comando abaixo para que a aplicação execute sem problemas.
 ```sh
 $ npm install
 ```
