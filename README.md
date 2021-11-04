@@ -8,7 +8,15 @@ $ npm install
 ```
 
 # Execução
-Para iniciar a aplicação, rode no terminal:
+- Esse projeto foi feito com o webpack
+- Para iniciar o servidor em desenvolvimento basta executar o comando a seguir:
 ```sh
 $ npm run server
+```
+
+#Build do projeto
+- O build ira criar uma pasta chamada 'dist' contendo todos os arquivos e pastas do projeto
+- Execute o comando a seguir para fazer essa ação:
+```sh
+$ npm run build
 ```
