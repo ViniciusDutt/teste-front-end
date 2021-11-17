@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+  <head>
+    <link rel="shortcut icon" href="favicon.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importação da fonte de texto PT Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GlideJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+
+    <!-- Ícones importados de Font Awesome -->
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/brands.js"
+    ></script>
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/solid.js"
+    ></script>
+    <script
+      defer
+      src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"
+    ></script>
+
+    <title>Tinyone</title>
+  </head>
+  <body class="d-flex flex-column justify-content-center align-items-center">
+    <!-- Primeiro Bloco -->
+    <section class="secao px-sm-2 d-flex flex-column align-items-center justify-content-center">
+        <div class="col-8 flex mx-sm-2">
+          <!-- Navbar -->
+          <header class="row col-12 d-flex">
+            <nav
+              class="d-flex col-12 p-0 align-items-center justify-content-space-between"
+            >
+              <div class="col-2 d-flex align-items-center">
+                <a class="d-flex align-items-center" href="#"
+                  ><img src="logo.png" alt="Tinyone"
+                /></a>
+              </div>
+              <div
+                class="hamburguer col-10 lg-hidden d-flex justify-content-flex-end"
+              >
+                <i class="fas fa-bars"></i>
+              </div>
+              <ul class="mainMenu">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Blog</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <div class="socialMedia">
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+              </ul>
+            </nav>
+          </header>
+        </div>
+        <!-- Carrossel -->
+        <div class="col-8 d-flex justify-content-center">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  
+                  <div>
+                    <div
+                      class="col-12 h-100 d-flex align-items-center justify-content-space-between mt-2"
+                    >
+                      <div class="col-5 d-flex flex-column justify-content-center">
+                        <h1 class="title">Inspire your inspiration</h1>
+                        <h2 class="subtitle1 font-weight-400">
+                          Simple to use for your app, products showcase and your inspiration
+                        </h2>
+                        <p class="paragraph">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae
+                          eros eget tellus tristique bibendum. Donec rutrum sed sem quis
+                          venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et
+                          eros porta lobortis sit
+                        </p>
+                        <div class="d-flex">
+                          <a href="#"><i class="icon ml-0 fab fa-apple"></i></a>
+                          <a href="#"><i class="icon fab fa-android"></i></a>
+                          <a href="#"><i class="icon mr-0 fab fa-windows"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-5 d-flex lg-show justify-content-center">
+                        <img src="ipad.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                </li>
+                <li class="glide__slide">
+    
+                  <div>
+                    <div
+                      class="col-12 h-100 d-flex align-items-center justify-content-space-between mt-2"
+                    >
+                      <div class="col-5 d-flex flex-column justify-content-center">
+                        <h1 class="title">Inspire your inspiration</h1>
+                        <h2 class="subtitle1 font-weight-400">
+                          Simple to use for your app, products showcase and your inspiration
+                        </h2>
+                        <p class="paragraph">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae
+                          eros eget tellus tristique bibendum. Donec rutrum sed sem quis
+                          venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et
+                          eros porta lobortis sit
+                        </p>
+                        <div class="d-flex">
+                          <a href="#"><i class="icon ml-0 fab fa-apple"></i></a>
+                          <a href="#"><i class="icon fab fa-android"></i></a>
+                          <a href="#"><i class="icon mr-0 fab fa-windows"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-5 d-flex lg-show justify-content-center">
+                        <img src="ipad.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                </li>
+              </ul>
+            </div>
+            <div class="glide__bullets mt-5" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Segundo Bloco -->
+    <section class="secao d-flex justify-content-center">
+      <div
+        class="col-8 d-flex flex-column justify-content-center align-items-center mx-sm-2"
+      >
+        <div
+          class="d-flex flex-column justify-content-center text-center mt-5 col-8"
+        >
+          <h1 class="title">Tinyone features</h1>
+          <h2 class="subtitle2 darkBlueText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis
+            venenatis.
+          </h2>
+        </div>
+        <div class="grid-container mt-5">
+          <div class="d-flex align-items-flex-start">
+            <i class="fas fa-tablet-alt icon2"></i>
+            <div>
+              <h2 class="subtitle1 mt-0">Fully Responsive</h2>
+              <p class="paragraph grayText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-flex-start">
+            <i class="fas fa-lemon icon2"></i>
+            <div>
+              <h2 class="subtitle1 mt-0">Fully Layered PSD</h2>
+              <p class="paragraph grayText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-flex-start">
+            <i class="fas fa-folder icon2"></i>
+            <div>
+              <h2 class="subtitle1 mt-0">Font Awesome Icons</h2>
+              <p class="paragraph grayText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-flex-start">
+            <i class="fas fa-code icon2"></i>
+            <div>
+              <h2 class="subtitle1 mt-0">HTML3 & CSS3</h2>
+              <p class="paragraph grayText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-flex-start">
+            <i class="fas fa-envelope icon2"></i>
+            <div>
+              <h2 class="subtitle1 mt-0">Email Template</h2>
+              <p class="paragraph grayText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-flex-start">
+            <i class="fas fa-bookmark icon2"></i>
+            <div>
+              <h2 class="subtitle1 mt-0">Free to download</h2>
+              <p class="paragraph grayText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent vitae eros eget tellus tristique bibendum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Terceiro Bloco -->
+    <section class="secao d-flex justify-content-center">
+      <div class="col-8 d-flex mx-sm-2 flex-column align-items-center">
+        <div
+          class="d-flex flex-column justify-content-center text-center mt-5 col-8"
+        >
+          <h1 class="title yellowText">Keep in touch with us</h1>
+          <h2 class="subtitle2 grayText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis
+            venenatis.
+          </h2>
+          <form class="mt-2 d-flex flex-sm-column justify-content-center" action="#">
+            <input
+              class="form-input col-8 col-sm-12 mr-1"
+              type="email"
+              placeholder="Enter your email to update"
+              name=""
+              id=""
+            />
+            <input
+              class="botao col-2 col-sm-12 mt-sm-1"
+              type="submit"
+              name="submit"
+              id="submit"
+              value="submit"
+            />
+          </form>
+          <div class="mt-5">
+            <a href="#"
+              ><i class="icon3 fab fa-facebook-square yellowText"></i
+            ></a>
+            <a href="#"
+              ><i class="icon3 fab fa-twitter-square yellowText"></i
+            ></a>
+            <a href="#"
+              ><i class="icon3 fab fa-google-plus-square yellowText"></i
+            ></a>
+            <a href="#"
+              ><i class="icon3 fab fa-pinterest-square yellowText"></i
+            ></a>
+          </div>
+        </div>
+        <div class="grid-container2 text-left">
+          <div>
+            <p class="paragraph whiteText">
+              HALOVIETNAM LTD 66, Dang Van ngu, Dong Da Hanoi, Vietnam
+            </p>
+            <a href="mailto:contact@halovietnam.com" class="paragraph whiteText"
+              >contact@halovietnam.com</a
+            >
+            <a href="tel:+844-35149182" class="paragraph whiteText"
+              >+844 35149182</a
+            >
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="paragraph whiteText">Examples</a>
+            <a href="#" class="paragraph whiteText">Shop</a>
+            <a href="#" class="paragraph whiteText">License</a>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="paragraph whiteText">Contact</a>
+            <a href="#" class="paragraph whiteText">About</a>
+            <a href="#" class="paragraph whiteText">Privacy</a>
+            <a href="#" class="paragraph whiteText">Terms</a>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="paragraph whiteText">Download</a>
+            <a href="#" class="paragraph whiteText">Support</a>
+            <a href="#" class="paragraph whiteText">Documents</a>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="paragraph whiteText">Media</a>
+            <a href="#" class="paragraph whiteText">Blog</a>
+            <a href="#" class="paragraph whiteText">Forums</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  </body>
+</html>
